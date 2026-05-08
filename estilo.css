@@ -1,0 +1,153 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/* LOGIN */
+.auth-container {
+    width: 350px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #0a8f5a;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BOTONES */
+button {
+    padding: 10px;
+    border: none;
+    background: #0a8f5a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 15px;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+/* FORM */
+.form-container {
+    width: 400px;
+    margin: 30px auto;
+}
+
+/* MAPA */
+#map, #mapDashboard {
+    height: 300px;
+    margin-top: 10px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.login-container {
+    width: 350px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+/* ICONO */
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #0a8f5a;
+    border-radius: 50%;
+}
+
+/* TITULOS */
+.titulo {
+    color: #0a8f5a;
+    margin: 10px 0;
+}
+
+.subtitulo {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* TABS */
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #ddd;
+}
+
+.tabs .active {
+    background: #0a8f5a;
+    color: white;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* BOTON */
+.btn-login {
+    width: 100%;
+    background: #0a8f5a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* LINK */
+.link {
+    display: block;
+    margin-top: 10px;
+    color: #0a8f5a;
+    font-size: 14px;
+}

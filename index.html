@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>AXMReporta</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <!-- ICONO -->
+    <div class="avatar">
+        <div class="circle"></div>
+    </div>
+
+    <!-- TITULO -->
+    <h1 class="titulo">AXM Reporta</h1>
+    <p class="subtitulo">Armenia, Quindío</p>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <button class="active" onclick="mostrarLogin()">Iniciar Sesión</button>
+        <button onclick="mostrarRegistro()">Registrarse</button>
+    </div>
+
+    <!-- LOGIN -->
+    <div id="login">
+
+        <label>Cédula</label>
+        <input type="text" id="cedula" placeholder="Ingrese su cédula">
+
+        <label>Contraseña</label>
+        <input type="password" id="password" placeholder="********">
+
+        <button class="btn-login" onclick="login()">Iniciar Sesión</button>
+
+        <a href="recuperar.html" class="link">¿Olvidaste tu contraseña?</a>
+
+    </div>
+
+    <!-- REGISTRO -->
+    <div id="registro" style="display:none;">
+
+        <input type="text" id="rCedula" placeholder="Cédula">
+        <input type="text" id="rNombre" placeholder="Nombres">
+        <input type="text" id="rApellido" placeholder="Apellidos">
+        <input type="email" id="rCorreo" placeholder="Correo">
+        <input type="password" id="rPassword" placeholder="Contraseña">
+
+        <button class="btn-login" onclick="registrar()">Registrarse</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

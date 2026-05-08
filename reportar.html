@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nuevo Reporte</title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+<div class="navbar">
+    <h2>Nuevo Reporte</h2>
+    <button onclick="window.location.href='dashboard.html'">Volver</button>
+</div>
+
+<div class="form-container">
+
+    <input type="text" id="descripcion" placeholder="Descripción">
+
+    <select id="categoria">
+        <option>Vías</option>
+        <option>Servicios Públicos</option>
+        <option>Espacios Públicos</option>
+    </select>
+
+    <input type="file" id="foto" accept="image/*">
+
+    <div id="map" style="height:300px;"></div>
+
+    <button onclick="enviarReporte()">Enviar</button>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
