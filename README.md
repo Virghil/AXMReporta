@@ -1,4 +1,4 @@
-# AXMReporta
+# AXMReporta.
 
 ## 📌 Descripción
 AXMReporta es una aplicación web que permite a los ciudadanos reportar problemas de infraestructura urbana en la ciudad de Armenia, facilitando la gestión por parte de las entidades públicas.
@@ -29,3 +29,4 @@ Mejorar la comunicación entre ciudadanos y la administración pública mediante
 - Jhon Jaider Echavarria Tapias
 - Juan Muñoz Garcia
 - German Alberto Rengifo Hernandez
+- Julian David Castrillon Martinez
